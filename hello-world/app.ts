@@ -4,10 +4,10 @@ import { knex } from 'knex';
 const database = knex({
     client: 'mysql2',
     connection: {
-        host: 'database-1.coc13ag5l7ap.eu-central-1.rds.amazonaws.com',
-        user: 'admin',
-        password: 'adminpass',
-        database: 'testdb',
+        host: '',
+        user: '',
+        password: '',
+        database: '',
     },
 });
 
