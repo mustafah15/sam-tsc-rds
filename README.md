@@ -1,6 +1,6 @@
-## sam typescript lambda with RDS connection
+## SAM typescript lambda with RDS connection
 
-this is a basic example in Typescript connecting Lambda with RDS.
+This is a basic Lambda example written in Typescript with SAM with a RDS connection.
 
 - [tutorial](https://youtu.be/vp_uulb5phM) for spinning a new RDS instance that exposed to your IP 
 - [tutorial](https://youtu.be/jOLgUjcTFEI) for configuring and connecting to RDS proxy
