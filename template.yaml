@@ -31,11 +31,14 @@ Resources:
         Minify: true
         Target: "es2020"
         Sourcemap: true
-        externals: 
-          - pg-hstore
-          - tedious
+        External: 
+          - mysql
+          - better-sqlite3
           - sqlite3
           - pg
+          - tedious
+          - pg-query-stream
+          - oracledb
         EntryPoints: 
         - app.ts
 
